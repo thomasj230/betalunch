@@ -40,7 +40,7 @@ export let welcomeMail = (register) => {
                   <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
                   <mj-section>
                     <mj-column>
-                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="betahaus" twitter-content="@betahaus" facebook-href="https://www.facebook.com/betahaus" twitter-href="https://twitter.com/betahaus" />
+                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="numaparis" twitter-content="@NUMAparis" facebook-href="https://www.facebook.com/numaparis" twitter-href="https://twitter.com/NUMAparis" />
                       <mj-image width="80" src="${url}/logo_color.png" href="http://www.meetmangrove.com/"/>
                     </mj-column>
                   </mj-section>
@@ -96,7 +96,7 @@ export let askForMatchingHTML = (register) => {
                   <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
                   <mj-section>
                     <mj-column>
-                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="betahaus" twitter-content="@betahaus" facebook-href="https://www.facebook.com/betahaus" twitter-href="https://twitter.com/betahaus" />
+                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="numaparis" twitter-content="@NUMAparis" facebook-href="https://www.facebook.com/numaparis" twitter-href="https://twitter.com/NUMAparis" />
                       <mj-image width="80" src="${url}/logo_color.png" href="http://www.meetmangrove.com/"/>
                     </mj-column>
                   </mj-section>
@@ -141,7 +141,7 @@ export let matchingMailHTML1 = (peopleOne, peopleTwo) => {
                               <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
                               <mj-section>
                                 <mj-column>
-                                  <mj-social mode="horizontal" display="facebook twitter" facebook-content="betahaus" twitter-content="@betahaus" facebook-href="https://www.facebook.com/betahaus" twitter-href="https://twitter.com/betahaus" />
+                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="numaparis" twitter-content="@NUMAparis" facebook-href="https://www.facebook.com/numaparis" twitter-href="https://twitter.com/NUMAparis" />
                                   <mj-image width="80" src="${url}/logo_color.png" href="http://www.meetmangrove.com/"/>
                                 </mj-column>
                               </mj-section>
@@ -195,7 +195,7 @@ export let matchingMailHTML2 = (peopleOne, peopleTwo, oddPeople) => {
                               <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
                               <mj-section>
                                 <mj-column>
-                                  <mj-social mode="horizontal" display="facebook twitter" facebook-content="betahaus" twitter-content="@betahaus" facebook-href="https://www.facebook.com/betahaus" twitter-href="https://twitter.com/betahaus" />
+                      <mj-social mode="horizontal" display="facebook twitter" facebook-content="numaparis" twitter-content="@NUMAparis" facebook-href="https://www.facebook.com/numaparis" twitter-href="https://twitter.com/NUMAparis" />
                                   <mj-image width="80" src="${url}/logo_color.png" href="http://www.meetmangrove.com/"/>
                                 </mj-column>
                               </mj-section>
