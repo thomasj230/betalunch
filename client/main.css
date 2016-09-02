@@ -1,12 +1,7 @@
 /* CSS declarations go here */
 @font-face {
-    font-family: 'museo_sans';
-    src: url('/fonts/MuseoSans_500-webfont.eot');
-    src: url('/fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/MuseoSans_500-webfont.woff2') format('woff2'),
-    url('/fonts/MuseoSans_500-webfont.woff') format('woff'),
-    url('/fonts/MuseoSans_500-webfont.ttf') format('truetype'),
-    url('/fonts/MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-family: 'latolight';
+    src: url('/fonts/Lato-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,7 +30,7 @@ body {
 
 .backToBeta a {
     color: white;
-    font-family: 'museo_sans', sans-serif;
+    font-family: 'latolight', sans-serif;
 }
 
 .mangroveLogo {
@@ -54,33 +49,33 @@ h1 {
 
 h1, p {
     color: white;
-    font-family: 'museo_sans', sans-serif;
+    font-family: 'latolight', sans-serif;
 }
 
 label {
-    font-family: 'museo_sans', sans-serif;
+    font-family: 'latolight', sans-serif;
 }
 
 form .btn, form .btn:hover {
-    background-color: #ea5d34;
+    background-color: #312783;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
-    border-bottom: 1px solid #ea5d34;
-    box-shadow: 0 1px 0 0 #ea5d34;
+    border-bottom: 1px solid #312783;
+    box-shadow: 0 1px 0 0 #312783;
 }
 
 .dropdown-content li > a, .dropdown-content li > span{
-    color: #ea5d34;
+    color: #312783;
 }
 
 [type="checkbox"]:checked + label:before{
-    border-right: 2px solid #ea5d34;
-    border-bottom: 2px solid #ea5d34;
+    border-right: 2px solid #312783;
+    border-bottom: 2px solid #312783;
 }
 
 input:not([type]):focus:not([readonly]) + label, input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label, input[type=email]:focus:not([readonly]) + label, input[type=url]:focus:not([readonly]) + label, input[type=time]:focus:not([readonly]) + label, input[type=date]:focus:not([readonly]) + label, input[type=datetime]:focus:not([readonly]) + label, input[type=datetime-local]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label, input[type=number]:focus:not([readonly]) + label, input[type=search]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label{
-    color: #ea5d34;
+    color: #312783;
 }
 
 .form-group label{

@@ -17,7 +17,7 @@ export let askForMatchingHTML = (register) => {
                     <mj-column>
                       <mj-image width="150" border-radius="50%" src="${url}${Files.findOne({_id: register.picture}).url()}" />
                       <mj-text align="center" font-size="24px">
-                        Good morning ${register.name}!<br/> Do you want to have lunch with another betahaus member today?
+                        Good morning ${register.name}!<br/> Do you want to have lunch with another numa member today?
                       </mj-text>
                     </mj-column>
                   </mj-section>
@@ -43,7 +43,7 @@ export let askForMatchingHTML = (register) => {
                       </mj-button>
                       <mj-spacer height="15px" />
                       <mj-button font-family="Helvetica" background-color="#039be5" inner-padding="15px" href="${url}/change_pairing_days/${register._id}">
-                        I want to change my betalunch days.
+                        I want to change my numa days.
                       </mj-button>
                       <mj-spacer height="15px" />
                       <mj-button font-family="Helvetica" background-color="#039be5" inner-padding="15px" color="white" href="${url}/unsubscribe/${register._id}">
