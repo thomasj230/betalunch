@@ -73,6 +73,10 @@ Template.accept.onCreated(() => {
     Registered.update({_id: FlowRouter.getParam("_id")}, {$set: {isPairedToday: true}});
 });
 
+Template.reject.onCreated(() => {
+    Registered.update({_id: FlowRouter.getParam("_id")}, {$set: {isPairedToday: false}});
+});
+
 Template.reject_week.onCreated(() => {
     Registered.update({_id: FlowRouter.getParam("_id")}, {$set: {isPairedWeek: false}});
 });
